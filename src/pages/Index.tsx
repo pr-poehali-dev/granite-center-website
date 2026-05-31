@@ -178,13 +178,23 @@ export default function Index() {
             ))}
           </nav>
 
-          <a
-            href="tel:+79159377066"
-            className="hidden lg:flex items-center gap-2 bg-[#C9A84C] text-[#0F0D0A] px-5 py-2.5 font-oswald font-medium tracking-wider text-sm hover:bg-[#E8C97A] transition-colors duration-300"
-          >
-            <Icon name="Phone" size={14} />
-            +7 (915) 937-70-66
-          </a>
+          <div className="hidden lg:flex items-center gap-4">
+            <a
+              href="mailto:gcinfo@yandex.ru"
+              className="flex items-center gap-2 text-[#C4AE98] hover:text-[#C9A84C] transition-colors duration-300 text-sm"
+            >
+              <Icon name="Mail" size={14} />
+              gcinfo@yandex.ru
+            </a>
+            <div className="w-px h-5 bg-[#2D2518]" />
+            <a
+              href="tel:+79159377066"
+              className="flex items-center gap-2 bg-[#C9A84C] text-[#0F0D0A] px-5 py-2.5 font-oswald font-medium tracking-wider text-sm hover:bg-[#E8C97A] transition-colors duration-300"
+            >
+              <Icon name="Phone" size={14} />
+              +7 (915) 937-70-66
+            </a>
+          </div>
 
           <button
             className="lg:hidden text-[#C9A84C]"
