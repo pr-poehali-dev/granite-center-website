@@ -533,6 +533,21 @@ export default function Index() {
 
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 border border-[#C9A84C]/30 flex items-center justify-center flex-shrink-0">
+                    <Icon name="Mail" size={20} className="text-[#C9A84C]" />
+                  </div>
+                  <div>
+                    <div className="text-[#9a8470] text-xs tracking-wider uppercase mb-1">Электронная почта</div>
+                    <a
+                      href="mailto:gcinfo@yandex.ru"
+                      className="font-oswald text-xl font-semibold text-white hover:text-[#C9A84C] transition-colors"
+                    >
+                      gcinfo@yandex.ru
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 border border-[#C9A84C]/30 flex items-center justify-center flex-shrink-0">
                     <Icon name="Clock" size={20} className="text-[#C9A84C]" />
                   </div>
                   <div>
